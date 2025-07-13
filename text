@@ -1,0 +1,6 @@
+curl --request POST \
+	--url https://fake-news-detection1.p.rapidapi.com/ \
+	--header 'Content-Type: application/json' \
+	--header 'x-rapidapi-host: fake-news-detection1.p.rapidapi.com' \
+	--header 'x-rapidapi-key: 7a23d527c8mshfca7cb5dc8a1b12p189e1cjsn058fcbd46030' \
+	--data '{"key1":"value","key2":"value"}'
